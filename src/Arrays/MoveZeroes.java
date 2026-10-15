@@ -3,13 +3,13 @@ package Arrays;
 /**
  * Problem: Move Zeroes (LeetCode 283)
  * Pattern: Two Pointers
- * URL: https://leetcode.com/problems/move-zeroes/
- *
+ * URL: <a href="https://leetcode.com/problems/move-zeroes/">...</a>
+ * <p>
  * Problem Statement:
  * Given an integer array nums, move all 0s to the end
  * while maintaining relative order of non-zero elements.
  * Must do this in-place without making a copy of the array.
- *
+ * <p>
  * Example:
  * Input:  [0, 1, 0, 3, 12]
  * Output: [1, 3, 12, 0, 0]

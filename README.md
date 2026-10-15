@@ -31,7 +31,8 @@ Each solution includes time complexity, space complexity, and pattern explanatio
 
 | Date | Problem | Pattern | Difficulty |
 |---|---|---|---|
-| 2026-10-14 | Move Zeroes | HashMap | Easy |
+| 2026-10-14 | Move Zeroes | Two Pointers | Easy |
+| 2026-10-15 | Majority Element | Hashing / Sorting / Boyer-Moore Voting | Easy |
 
 ---
 
@@ -42,9 +43,3 @@ Dutch tech interviews at Booking.com, Adyen, ING, and Bol.com
 test DSA problem-solving alongside system design and Java depth.
 
 ---
-
-## 🔗 Related Repositories
-
-- [java-backend-service](https://github.com/Arjun7497/java-backend-service) — Production Spring Boot microservices
-- [lld-machine-coding](https://github.com/Arjun7497/lld-machine-coding) — Object-oriented design projects
-- [cloud-infra](https://github.com/Arjun7497/cloud-infra) — Terraform + Kubernetes infrastructure
