@@ -27,12 +27,21 @@ Each solution includes time complexity, space complexity, and pattern explanatio
 
 ---
 
+# DSA Practice Log
+
+A running log of the problems I've solved, with the pattern used and difficulty.
+
 ## 📅 Progress Log
 
 | Date | Problem | Pattern | Difficulty |
 |---|---|---|---|
-| 2026-10-14 | Move Zeroes | Two Pointers | Easy |
-| 2026-10-15 | Majority Element | Hashing / Sorting / Boyer-Moore Voting | Easy |
+| 2026-10-14 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) (LeetCode 283) | Two Pointers | Easy |
+| 2026-10-15 | [Majority Element](https://leetcode.com/problems/majority-element/) (LeetCode 169) | Hashing / Sorting / Boyer-Moore Voting | Easy |
+| 2026-10-16 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) (LeetCode 238) | Prefix and Suffix Products | Medium |
+| 2026-10-17 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) (LeetCode 121) | Single Pass / Running Minimum | Easy |
+| 2026-10-18 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (LeetCode 26) | Two Pointers (Read-Write) | Easy |
+| 2026-10-18 | [Two Sum](https://leetcode.com/problems/two-sum/) (LeetCode 1) | Hash Map (Complement Lookup) | Easy |
+| 2026-10-19 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) (LeetCode 122) | Greedy (Sum of Positive Differences) / State DP | Medium |
 
 ---
 
