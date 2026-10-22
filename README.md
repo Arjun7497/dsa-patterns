@@ -43,7 +43,8 @@ A running log of the problems I've solved, with the pattern used and difficulty.
 | 2026-10-18 | [Two Sum](https://leetcode.com/problems/two-sum/) (LeetCode 1) | Hash Map (Complement Lookup) | Easy |
 | 2026-10-19 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) (LeetCode 122) | Greedy (Sum of Positive Differences) / State DP | Medium |
 | 2026-10-20 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) (LeetCode 41) | Cyclic Sort (Index as Hash) | Hard |
-| 2026-10-18 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) (LeetCode 80) | Two Pointers (Read-Write) | Medium |
+| 2026-10-21 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) (LeetCode 80) | Two Pointers (Read-Write) | Medium |
+| 2026-10-22 | [Remove Element](https://leetcode.com/problems/remove-element/) (LeetCode 27) | Two Pointers (Read-Write) | Easy |
 ---
 
 ## 🎯 Why This Repo
