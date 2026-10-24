@@ -59,34 +59,31 @@ public class ValidWordAbbreviation {
     // advance i by that amount. At the end, both pointers must be exhausted.
     // ─────────────────────────────────────────────────────────────
     public boolean validWordAbbreviation(String word, String abbr) {
-        int n = word.length();
-        int m = abbr.length();
-        int i = 0;
-        int j = 0;
+        int i = 0; // pointer for word
+        int j = 0; // pointer for abbreviation
 
-        while (j < m) {
-            char c = abbr.charAt(j);
-            if (Character.isDigit(c)) {
-                if (c == '0') {
-                    return false; // leading zero
-                }
+        while (i < word.length() && j < abbr.length()) {
+            if (Character.isDigit(abbr.charAt(j))) {
+                // Leading zero is not allowed
+                if (abbr.charAt(j) == '0') return false;
+
+                // Parse the full number
                 int num = 0;
-                while (j < m && Character.isDigit(abbr.charAt(j))) {
+                while (j < abbr.length() && Character.isDigit(abbr.charAt(j))) {
                     num = num * 10 + (abbr.charAt(j) - '0');
                     j++;
                 }
+                // Skip that many characters in word
                 i += num;
-                if (i > n) {
-                    return false; // skipped past the end of word
-                }
             } else {
-                if (i >= n || word.charAt(i) != c) {
-                    return false;
-                }
+                // Letters must match exactly
+                if (word.charAt(i) != abbr.charAt(j)) return false;
                 i++;
                 j++;
             }
         }
-        return i == n;
+
+        // Both pointers must reach the end
+        return i == word.length() && j == abbr.length();
     }
 }
