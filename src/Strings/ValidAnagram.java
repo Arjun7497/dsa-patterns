@@ -1,31 +1,31 @@
 package Strings;
 
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Problem: Valid Anagram (LeetCode 242)
  * Pattern: Frequency Counting
- * URL: https://leetcode.com/problems/valid-anagram/
- *
+ * URL: <a href="https://leetcode.com/problems/valid-anagram/">...</a>
+ * <p>
  * Problem Statement:
  * Given two strings s and t, return true if t is an anagram of s, and false otherwise.
  * An anagram is a word formed by rearranging the letters of another word,
  * using every original letter exactly once.
- *
+ * <p>
  * Example:
  * Input:  s = "anagram", t = "nagaram"
  * Output: true
- *
+ * <p>
  * Input:  s = "rat", t = "car"
  * Output: false
- *
+ * <p>
  * This file contains three approaches:
  *   1. Sort both strings and compare          O(n log n) time, O(n) space
  *   2. Hash map of character counts           O(n) time, O(k) space (k = distinct chars)
  *   3. Fixed array of 26 counts (optimal)     O(n) time, O(1) space
  */
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-
 public class ValidAnagram {
 
     // ─────────────────────────────────────────────────────────────
